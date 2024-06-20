@@ -1,0 +1,263 @@
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'DMSans';
+    src: url(../assets/fonts/DMSans_36pt-Regular.ttf);
+}
+
+html{
+    background-color: #020202;
+}
+
+
+body{
+    font-family: 'DMSans';
+}
+
+
+header{
+    height: 150px;
+}
+
+
+
+h1{
+    color: #FFFFFF;
+    font-family: 'Dmsans';
+    font-size: 48px;
+    text-align: center;
+    position: relative;
+    top: 300px;
+    z-index: 2;
+}
+
+p{
+   font-family: 'Dmsans';
+   color: #FFFFFF;
+}
+
+
+footer{
+    color: #FFFFFF;
+}
+
+.x-icon{
+    display: inline-block;
+    max-height: 100px;
+    max-width: 100px;  
+}
+
+.logo{
+    display: inline-block;
+    top: 40px;
+    left: 0%;
+    max-height: 150px;
+    max-width: 150px;
+    position: relative;
+}
+
+
+ a {
+    font-family: 'Dmsans';
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    color: #FFFFFF;
+    padding: 50px 50px;
+    position: relative;
+    bottom: 45px;
+}
+
+ul li { 
+    bottom: 40px;
+    color: #FFFFFF;
+    display: inline;
+    list-style: none;
+    padding: 5px 20px;
+    margin: 0px 10px;
+    position: relative;
+    left: 300px;
+    z-index: 2;
+    
+
+}
+.portada{
+    display: inline-block;
+    /* height: 500px;
+    width: 1000px; */
+    left: 100px; 
+    position: relative;   
+    z-index: 1;
+}
+
+aside{
+      position: relative;
+      bottom: 350px;
+      left: 400px;
+    
+}
+
+.portada-4{
+
+    padding: 100px;
+
+}
+
+
+.portada-3{
+
+position: relative;
+left: 130px;
+
+}
+
+.portada-2{
+
+    position: relative;
+    left: 220px
+
+}
+
+
+
+ol{
+    font-family: 'Dmsans';
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    top: 350px;
+    height: 600px;
+    color: #FFFFFF;
+    padding: 50px 50px;
+    position: relative;
+}
+
+ol li { 
+    padding: 20px 20px;
+
+}
+
+footer{
+    display: inline-block;
+    width: 1000px;
+          
+}
+
+
+.foot p {
+ display: inline-block;
+ width: 1000px;
+ left: 1100px;
+ position: absolute;
+
+}
+
+.foot-i{
+        position: relative;
+        left: 1110px;
+        bottom: 60px;
+}
+
+
+
+ input{
+    display: block;
+    padding: 10px;
+    left: 600px;
+    height: 20px;
+    position: relative;
+
+
+}
+
+.Mensaje{
+    height: 200px  ;
+    position: relative;
+}
+
+.Contacto{
+    
+    height: 500px;
+    font-family: 'Dmsans';    
+    color: #FFFFFF;
+    position: relative;
+    top: 50px;
+}
+
+.Contacto p{
+ 
+position: relative;
+left: 650px;
+
+}
+
+
+main button{
+    display: inline-block;
+    position: relative;
+    left: 660px;
+    top: 10px;
+    padding: 10px;
+    
+}
+
+.pQS{
+    color: #FFFFFF;
+    font-family: 'Dmsans';
+    font-size: 20px;
+    height: 200px;
+
+}
+
+.H1-QS{
+       font-size: 48px;
+       position: relative;
+       top: 420px;
+
+    }
+
+   .Casamientos-P p{
+        
+     position: relative;
+     top: 180px;
+     padding: 30px;
+    font-size: 22px;
+    left: 800px;
+    width: 400px;
+    text-align: center;
+
+ 
+ }
+
+ .Casamientos-A {
+   position: relative;
+   top: 250px;
+   right: 380px;;
+ 
+
+ }
+
+ .FDQ-P p{
+        
+    position: relative;
+    top: 180px;
+    padding: 30px;
+   font-size: 22px;
+   left: 800px;
+   width: 400px;
+   text-align: center;
+
+
+}
+
+.FDQ-A {
+    position: relative;
+    top: 250px;
+    right: 380px;;
+  
+ 
+  }
