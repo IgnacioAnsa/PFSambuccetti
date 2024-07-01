@@ -15,8 +15,6 @@ html{
 
 body{
     font-family: 'DMSans';
-    background-color: #020202;
-    overflow-x: hidden;
 }
 
 
@@ -24,6 +22,17 @@ header{
     height: 150px;
 }
 
+
+
+h1{
+    color: #FFFFFF;
+    font-family: 'Dmsans';
+    font-size: 48px;
+    text-align: center;
+    position: relative;
+    top: 300px;
+    z-index: 2;
+}
 
 p{
    font-family: 'Dmsans';
@@ -62,7 +71,7 @@ footer{
     bottom: 45px;
 }
 
- #barra{ 
+ul li { 
     bottom: 40px;
     color: #FFFFFF;
     display: inline;
@@ -72,23 +81,17 @@ footer{
     position: relative;
     left: 300px;
     z-index: 2;
-} 
-.dropdown-menu {
-    background-color:#020202;
-    font-family: 'Dmsans';
-}
-
-.dropdown-item{
-    background-color:#020202;
-}
-
-#botón{
-   background-color: #020202;
-   font-family: 'Dmsans';
+    
 
 }
-
-
+.portada{
+    display: inline-block;
+    /* height: 500px;
+    width: 1000px; */
+    left: 100px; 
+    position: relative;   
+    z-index: 1;
+}
 
 aside{
       position: relative;
@@ -148,14 +151,14 @@ footer{
 .foot p {
  display: inline-block;
  width: 1000px;
- left: 1000px;
+ left: 1100px;
  position: absolute;
 
 }
 
 .foot-i{
         position: relative;
-        left: 1000px;
+        left: 1110px;
         bottom: 60px;
 }
 

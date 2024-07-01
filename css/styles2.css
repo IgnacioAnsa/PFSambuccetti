@@ -3,11 +3,25 @@
     box-sizing: border-box;
   }
 
+  @font-face {
+    font-family: 'DMSans';
+    src: url(../assets/fonts/DMSans_36pt-Regular.ttf);
+   }
+
   html{
         background-color: #020202;
     }
 
+    #parrafo{
+        font-size: 20px;
+        font-family: 'DMsans';
+        padding-top: 10px;
+
+    }
+
+
     body{
+        margin: 0;
         background-color: #020202 ;
    }
 
@@ -39,6 +53,15 @@
     #titulo {
         font-size: large;
     }
+
+   
+    #parrafo{
+        font-size: 20px;
+        font-family: 'DMsans';
+        padding-top: 40px;
+
+    }
+
     
     footer{
         background-color: #020202;
@@ -66,8 +89,7 @@
         
         padding-top: 200px;
     } 
-
-
+    
     
     #foot-2{
            
@@ -114,27 +136,8 @@
     padding-right: 40px;
     }
 
-  .navbar-custom{
-    background-color: #020202;
-   }
-
-   .navbar-custom .navbar-brand,
-        .navbar-custom .nav-link {
-            color:#FFFFFF;
-        }
-        .navbar-custom .nav-link:active {
-            color: #FFFFFF;
-        }
-
-        .navbar-custom .nav-link:hover{
-            color: #FFFFFF;
-        }
-
-        .navbar-custom .navbar-toggler {
-            border-color: #FFFFFF; 
-        }
-
-        body{
+  
+      body{
             background-color: #020202;
         }
         main{
@@ -155,6 +158,10 @@
             background-color: #020202;
         }
         
+     
+      
+
+
         .navbar-custom .navbar-brand,
                 .navbar-custom .nav-link {
                     color:#FFFFFF;
@@ -169,11 +176,23 @@
                 .navbar-nav .nav-link:hover{
                     color: #FFFFFF;
                     background-color: #2a2a2b;
-                   border-radius: 5px;
+                    border-radius: 5px;
 
                 }
 
-        
+                #botón{
+                    background-color: #020202;
+                }
+           
+                 #botón:hover{
+                    color: #FFFFFF;
+                    background-color: #2a2a2b;
+                   border-radius: 5px;
+
+                } 
+
+
+         
                 .card-custom{
                     background-color: #020202;
                 }
@@ -187,6 +206,7 @@
                
                 #medio{
                     padding-top: 20%;
+                    margin: 0;
                 }
 
                
