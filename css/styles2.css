@@ -19,6 +19,10 @@
 
     }
 
+    p{
+        font-family: 'DMsans';
+    }
+
 
     body{
         margin: 0;
@@ -30,8 +34,10 @@
    }
 
 
+
 .navbar-toggler.custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");}
+
 
 
   #lista-1{
@@ -49,12 +55,39 @@
     color: #FFFFFF;
   }
 
-  @media (min-width: 320px) and (max-width: 426px){
+
+
+  @media (min-width: 320px){
+
+    #card{
+        padding-top: 100px;
+    }
+    
+    
+    
     #titulo {
-        font-size: large;
+        font-family: 'DMsans';
+        padding-top: 100px;
     }
 
-   
+
+
+  }
+
+
+
+
+
+
+
+  @media (min-width: 320px) and (max-width: 426px){
+    
+    #titulo {
+     
+        font-size: large;
+        
+    }
+    
     #parrafo{
         font-size: 20px;
         font-family: 'DMsans';
@@ -74,6 +107,22 @@
   }
 
   @media (min-width: 767px) and (max-width: 769px){
+    
+    
+    
+    #card{
+        padding-top: 100px;
+    }
+    
+    
+    
+    #titulo {
+        font-family: 'DMsans';
+        padding-top: 100px;
+    }
+    
+    
+    
     #calesita{
         padding-right: 800px;
         }
@@ -111,6 +160,7 @@
    #lista{
              
         padding-top: 80px;   
+        font-family: 'DMsans';
 
     }
    
@@ -159,6 +209,7 @@
         }
         
      
+     
       
 
 
@@ -166,6 +217,7 @@
                 .navbar-custom .nav-link {
                     color:#FFFFFF;
                 }
+                
              
         
                 .navbar-custom .navbar-toggler {
@@ -182,6 +234,7 @@
 
                 #botón{
                     background-color: #020202;
+                    z-index: 1000;
                 }
            
                  #botón:hover{
@@ -191,8 +244,7 @@
 
                 } 
 
-
-         
+                         
                 .card-custom{
                     background-color: #020202;
                 }

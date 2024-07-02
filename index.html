@@ -10,7 +10,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-custom">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-custom">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="./assets/icon/esparcir eventos2.png" alt="logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,14 +19,11 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link" href="./pages/QuienesSomos.html">Quienes Somos</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Eventos</a>
-                <ul class="dropdown-menu">
+                <a class="nav-link dropdown-toggle" id="botón" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Eventos</a>
+                <ul class="dropdown-menu dropdown-menu-dark">
                   <li><a class="dropdown-item" href="./pages/Casamientos.html">Casamientos</a></li>
                   <li><a class="dropdown-item" href="./pages/FiestasDeQuince.html">Fiestas de Quince</a></li>
                 </ul>
@@ -44,7 +41,7 @@
       <div class="row">
        <div class="col">
       <div class="card text-white" id="portada">
-      <img class="card-image" src="./assets/images/salones-para-eventos.png" alt="organizacion de eventos">
+      <img class="card-image" id="card" src="./assets/images/salones-para-eventos.png" alt="organizacion de eventos">
       <div class="card-img-overlay d-flex flex-column justify-content-center">
         <h1 class="card-title text-center" id="titulo">Organización de eventos</h1>
       </div> 
@@ -108,8 +105,8 @@
         </div>
       </div>
      </footer>
-     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
   </body>
 </html>
 

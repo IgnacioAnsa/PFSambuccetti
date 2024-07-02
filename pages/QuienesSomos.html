@@ -10,42 +10,38 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-custom">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-custom">
         <div class="container-fluid">
-    <a class="navbar-brand" href="../index.html"><img src="../assets/icon/esparcir eventos2.png"></a>
-    <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav d-flex">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#"></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Quienes Somos</a>
-        </li>
-           <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item dropdown">
-          <button class="btn btn-dark dropdown-toggle" id="botón" data-bs-toggle="dropdown" aria-expanded="false">Eventos</button>
-          <ul class="dropdown-menu dropdown-menu-dark">
-            <li><a class="dropdown-item" href="../pages/Casamientos.html">Casamientos</a></li>
-            <li><a class="dropdown-item" href="../pages/FiestasDeQuince.html">Fiestas de Quince</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-        <li class="nav-item"> 
-          <a class="nav-link" href="../pages/Contacto.html">Contacto</a>
-        </li>
-    </nav>
+          <a class="navbar-brand" href="../index.html"><img src="../assets/icon/esparcir eventos2.png" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="./QuienesSomos.html">Quienes Somos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="botón" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Eventos</a>
+                <ul class="dropdown-menu  dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="../pages/Casamientos.html">Casamientos</a></li>
+                  <li><a class="dropdown-item" href="../pages/FiestasDeQuince.html">Fiestas de Quince</a></li>
+                </ul>
+              </li>
+              <li class="nav-item"> 
+                <a class="nav-link" href="../pages/Contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
    </header>
     <main>
       <div class="container">
         <div class="row">
          <div class="col">
         <div class="card text-white" id="portada">
-        <img class="card-image" src="../assets/images/banner-produccion-de-eventos.jpg" alt="Producción de eventos">
+        <img class="card-image" id="card" src="../assets/images/banner-produccion-de-eventos.jpg" alt="Producción de eventos">
         <div class="card-img-overlay d-flex flex-column justify-content-center">
           <h1 class="card-title text-center" id="titulo">Quienes Somos</h1>
         </div> 
