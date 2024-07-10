@@ -112,6 +112,20 @@
         margin-top: 0%;
     } 
 
+    .imagen-eventos{
+        max-width: 160px;
+        padding-top: 80px;
+    }
+
+    .parrafo-casamientos{
+        padding-top: 50px;
+        padding-left: 7px;
+    }
+
+    .parrafo-quince{
+        padding-top: 30px;
+        padding-left: 20px;
+    }
 
   }
 
@@ -155,6 +169,25 @@
         padding-left: 350px;
 
     }
+
+
+
+    .parrafo-casamientos{
+        padding-top: 100px;
+        padding-left: 100px;
+    }
+
+    .imagen-eventos{
+        max-width: 384px;
+        padding-top: 100px;
+
+    }
+
+    .parrafo-quince{
+        padding-top: 100px;
+        padding-left: 100px;
+    }
+
    
 
   }
@@ -188,7 +221,34 @@
       
     }
 
+    #contacto{
+        padding-left: 370px;
+    }
+
+    .imagen-eventos{
+        max-width: 517px;
+        padding-top: 100px;
+    
+       }
+    
+    .parrafo-casamientos{
+        padding-top: 100px;
+        padding-left: 100px;
+        font-size: 25px;
+      }
+
+      .parrafo-quince{
+        padding-top: 100px;
+        padding-left: 100px;
+        font-size: 25px;
+      }
+    
+    
+
   }
+
+
+
 
 
 
@@ -297,6 +357,25 @@
             transition: padding 0.5s;
         }
 
+        .contacto{
+            font-family: 'DMsans';
+            height: 700px;
+            background-image: url('../assets/images/contacto.jpg');
+            background-position: center;
+            background-size: auto;
+        }
 
- 
+         .foot-c{
+            padding-top: 10px;
+            font-family: 'DMsans';
+        } 
+
+        .btn-custom-sm {
+            padding: 0.25rem 0.5rem;
+            font-size: 0.875rem;
+        }
+
+  
+
+  
 
