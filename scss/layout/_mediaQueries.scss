@@ -1,161 +1,161 @@
-@mixin parrafosEventos{
+@mixin parrafosEventos {
+  padding-top: 100px;
+  padding-left: 100px;
+}
+
+@media (min-width: 320px) {
+  #card {
     padding-top: 100px;
-    padding-left: 100px;
   }
-  
-  @media (min-width: 320px) {
-    #card {
-      padding-top: 100px;
-    }
-  
-    #calesita {
-      padding: 10px;
-    }
-  
-    #titulo {
-      font-family: "DMsans";
-      padding-top: 100px;
-    }
+
+  #calesita {
+    padding: 10px;
   }
-  
-  @media (min-width: 320px) and (max-width: 426px) {
-     
-    .icon{
-      padding: 8px;
-  
-     }
 
-    #titulo {
-      font-size: large;
-    }
-  
-    #parrafo {
-      font-size: 20px;
-      font-family: "DMsans";
-      padding-top: 40px;
-    }
-  
-    #lista {
-      font-size: 12px;
-      font-family: "DMsans";
-    }
-  
-    footer {
-      background-color: $color-negro;
-      font-size: 12px;
-      padding-top: 40%;
-      margin-top: 0%;
-    }
-  
-    .imagen-eventos {
-      max-width: 160px;
-      padding-top: 80px;
-    }
-  
-    .parrafo-casamientos {
-      padding-top: 50px;
-      padding-left: 7px;
-    }
-  
-    .parrafo-quince {
-      padding-top: 30px;
-      padding-left: 20px;
-    }
+  #titulo {
+    font-family: "DMsans";
+    padding-top: 100px;
   }
-  
-  @media (min-width: 767px) and (max-width: 769px) {
+}
 
-    .icon{
-      padding: 6px;
-  
-     }
- 
-    #card {
-      padding-top: 100px;
-    }
-  
-    #titulo {
-      font-family: "DMsans";
-      padding-top: 100px;
-    }
-  
-    #calesita {
-      padding-right: 800px;
-    }
-  
-    #lista {
-      padding-left: 50px;
-      padding-top: 70px;
-      font-family: "DMsans";
-    }
-  
-    footer {
-      padding-top: 200px;
-    }
-  
-    #foot-2 {
-      padding-left: 350px;
-    }
-  
-    .parrafo-casamientos {
-      @include parrafosEventos;
-    }
-  
-    .imagen-eventos {
-      max-width: 384px;
-      padding-top: 100px;
-    }
-  
-    .parrafo-quince {
-      @include parrafosEventos;
-    }
+@media (min-width: 320px) and (max-width: 426px) {
+
+  .icon {
+    padding: 8px;
+
   }
-  
-  @media (min-width: 1023px) {
 
-    .redes:hover {
-      padding: 20px;
-      transition: padding 0.5s;
-    }
-    .calle {
-      padding-right: 150px;
-    }
+  #titulo {
+    font-size: large;
+  }
 
-   .icon{
+  #parrafo {
+    font-size: 20px;
+    font-family: "DMsans";
+    padding-top: 40px;
+  }
+
+  #lista {
+    font-size: 12px;
+    font-family: "DMsans";
+  }
+
+  footer {
+    background-color: $color-negro;
+    font-size: 12px;
+    padding-top: 40%;
+    margin-top: 0%;
+  }
+
+  .imagen-eventos {
+    max-width: 160px;
+    padding-top: 80px;
+  }
+
+  .parrafo-casamientos {
+    padding-top: 50px;
+    padding-left: 7px;
+  }
+
+  .parrafo-quince {
+    padding-top: 30px;
+    padding-left: 20px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 769px) {
+
+  .icon {
+    padding: 6px;
+
+  }
+
+  #card {
+    padding-top: 100px;
+  }
+
+  #titulo {
+    font-family: "DMsans";
+    padding-top: 100px;
+  }
+
+  #calesita {
+    padding-right: 800px;
+  }
+
+  #lista {
+    padding-left: 50px;
+    padding-top: 70px;
+    font-family: "DMsans";
+  }
+
+  footer {
+    padding-top: 200px;
+  }
+
+  #foot-2 {
+    padding-left: 350px;
+  }
+
+  .parrafo-casamientos {
+    @include parrafosEventos;
+  }
+
+  .imagen-eventos {
+    max-width: 384px;
+    padding-top: 100px;
+  }
+
+  .parrafo-quince {
+    @include parrafosEventos;
+  }
+}
+
+@media (min-width: 1023px) {
+
+  .redes:hover {
+    padding: 20px;
+    transition: padding 0.5s;
+  }
+
+  .calle {
+    padding-right: 150px;
+  }
+
+  .icon {
     padding: 4px;
 
-   }
-
-    #foot-2 {
-      padding-left: 570px;
-    }
-  
-    #lista {
-      padding-top: 80px;
-      font-family: "DMsans";
-    }
-  
-    #calesita {
-      padding-right: 440px;
-    }
-  
-    footer {
-      padding-top: 200px;
-    }
-  
-    #contacto {
-      padding-left: 370px;
-    }
-  
-    .imagen-eventos {
-      max-width: 517px;
-      padding-top: 100px;
-    }
-  
-    .parrafo-casamientos, .parrafo-quince {
-      @include parrafosEventos;
-      font-size: 25px;
-    }
   }
-  
-  
+
+  #foot-2 {
+    padding-left: 570px;
+  }
+
+  #lista {
+    padding-top: 80px;
+    font-family: "DMsans";
+  }
+
+  #calesita {
+    padding-right: 440px;
+  }
+
+  footer {
+    padding-top: 200px;
+  }
+
+  #contacto {
+    padding-left: 370px;
+  }
+
+  .imagen-eventos {
+    max-width: 517px;
+    padding-top: 100px;
+  }
+
+  .parrafo-casamientos,
+  .parrafo-quince {
+    @include parrafosEventos;
+    font-size: 25px;
+  }
+}
