@@ -19,6 +19,12 @@
   }
   
   @media (min-width: 320px) and (max-width: 426px) {
+     
+    .icon{
+      padding: 8px;
+  
+     }
+
     #titulo {
       font-size: large;
     }
@@ -58,6 +64,12 @@
   }
   
   @media (min-width: 767px) and (max-width: 769px) {
+
+    .icon{
+      padding: 6px;
+  
+     }
+ 
     #card {
       padding-top: 100px;
     }
@@ -100,6 +112,20 @@
   }
   
   @media (min-width: 1023px) {
+
+    .redes:hover {
+      padding: 20px;
+      transition: padding 0.5s;
+    }
+    .calle {
+      padding-right: 150px;
+    }
+
+   .icon{
+    padding: 4px;
+
+   }
+
     #foot-2 {
       padding-left: 570px;
     }
@@ -131,4 +157,5 @@
       font-size: 25px;
     }
   }
+  
   
