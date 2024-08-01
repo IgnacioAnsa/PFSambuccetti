@@ -171,12 +171,12 @@ body {
 
 }
 
-@media (min-width: 1023px) {
-  .redes:hover {
-    padding: 20px;
-    transition: padding 0.5s;
-  }
+.redes:hover {
+  padding: 3px;
+  transition: padding 0.5s;
+}
 
+@media (min-width: 1023px) {
   .calle {
     padding-right: 150px;
   }
@@ -232,6 +232,15 @@ body {
   #parrafo {
 
     font-size: 35px;
+  }
+
+  .redes {
+    padding: 5px;
+  }
+
+  .redes:hover {
+    padding: 22px;
+    transition: padding 0.5s;
   }
 
 }
@@ -297,11 +306,6 @@ footer {
 .icon {
   max-width: 40px;
   max-height: 40px;
-}
-
-.redes:hover {
-  padding: 10px;
-  transition: padding 0.5s;
 }
 
 .contacto {
