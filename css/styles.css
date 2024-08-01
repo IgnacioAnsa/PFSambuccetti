@@ -18,6 +18,10 @@ html {
 #parrafo {
   font-size: 20px;
   font-family: "DMsans";
+  padding-top: 20px;
+}
+
+#row-qs {
   padding-top: 10px;
 }
 
@@ -54,12 +58,13 @@ body {
     font-family: "DMsans";
     padding-top: 100px;
   }
+
   .btn.btn-no-border {
     border: none;
     outline: none;
     padding-left: 0px;
   }
-  
+
 }
 
 @media (min-width: 320px) and (max-width: 426px) {
@@ -103,6 +108,7 @@ body {
     padding-top: 30px;
     padding-left: 20px;
   }
+
   .btn.btn-no-border {
     border: none;
     outline: none;
@@ -156,12 +162,13 @@ body {
     padding-top: 100px;
     padding-left: 100px;
   }
+
   .btn.btn-no-border {
     border: none;
     outline: none;
     padding-left: 0px;
   }
-  
+
 }
 
 @media (min-width: 1023px) {
@@ -210,13 +217,23 @@ body {
     padding-left: 100px;
     font-size: 25px;
   }
+
   .btn.btn-no-border {
     border: none;
     outline: none;
     padding-left: 10px;
     padding-top: 8px;
   }
-  
+
+  #row-qs {
+    padding-top: 70px;
+  }
+
+  #parrafo {
+
+    font-size: 35px;
+  }
+
 }
 
 #calesita {
@@ -304,12 +321,6 @@ footer {
 .btn-custom-sm {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
-}
-
-#parrafo {
-  font-size: 20px;
-  font-family: "DMsans";
-  padding-top: 10px;
 }
 
 
