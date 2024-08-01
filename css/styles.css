@@ -116,7 +116,56 @@ body {
   }
 }
 
-@media (min-width: 767px) and (max-width: 769px) {
+@media (min-width: 426px) and (max-width: 766px) {
+  .icon {
+    padding: 8px;
+  }
+
+  #titulo {
+    font-size: large;
+  }
+
+  #parrafo {
+    font-size: 20px;
+    font-family: "DMsans";
+    padding-top: 40px;
+  }
+
+  #lista {
+    font-size: 12px;
+    font-family: "DMsans";
+  }
+
+  footer {
+    background-color: #020202;
+    font-size: 12px;
+    padding-top: 40%;
+    margin-top: 0%;
+  }
+
+  .imagen-eventos {
+    max-width: 160px;
+    padding-top: 80px;
+  }
+
+  .parrafo-casamientos {
+    padding-top: 50px;
+    padding-left: 7px;
+  }
+
+  .parrafo-quince {
+    padding-top: 30px;
+    padding-left: 20px;
+  }
+
+  .btn.btn-no-border {
+    border: none;
+    outline: none;
+    padding-left: 0px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1022px) {
   .icon {
     padding: 6px;
   }
