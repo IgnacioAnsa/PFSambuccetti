@@ -1,9 +1,10 @@
+// los media queries ordenados de menor a mayor y un mixin
 @mixin parrafosEventos {
   padding-top: 100px;
   padding-left: 100px;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 0px) {
   #card {
     padding-top: 100px;
   }
@@ -16,9 +17,16 @@
     font-family: "DMsans";
     padding-top: 100px;
   }
+
+  .btn.btn-no-border {
+    border: none;
+    outline: none;
+    padding-left: 0px;
+  }
+
 }
 
-@media (min-width: 320px) and (max-width: 426px) {
+@media (min-width: 0px) and (max-width: 426px) {
 
   .icon {
     padding: 8px;
@@ -61,9 +69,15 @@
     padding-top: 30px;
     padding-left: 20px;
   }
+
+  .btn.btn-no-border {
+    border: none;
+    outline: none;
+    padding-left: 0px;
+  }
 }
 
-@media (min-width: 767px) and (max-width: 769px) {
+@media (min-width: 426px) and (max-width: 768px) {
 
   .icon {
     padding: 6px;
