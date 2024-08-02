@@ -1,0 +1,1 @@
+Esparcir Eventos nació como una iniciativa comercial con el objetivo de brindarle a la gente experiencias únicas, ofreciendo la mejor atención, equipamiento y catering del mercado. Siempre priorizando las últimas novedades en cuanto al servicio se refiere. El esparcimiento es nuestra prioridad
